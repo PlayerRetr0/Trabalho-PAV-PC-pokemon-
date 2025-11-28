@@ -1,0 +1,21 @@
+from enum import Enum
+
+class TipoEnum(Enum):
+    NORMAL = "Normal"
+    FOGO = "Fogo"
+    AGUA = "Água"
+    ELETRICO = "Elétrico"
+    GRAMA = "Grama"
+    GELO = "Gelo"
+    LUTADOR = "Lutador"
+    VENENOSO = "Venenoso"
+    TERRESTRE = "Terrestre"
+    VOADOR = "Voador"
+    PSIQUICO = "Psíquico"
+    INSETO = "Inseto"
+    PEDRA = "Pedra"
+    FANTASMA = "Fantasma"
+    DRAGAO = "Dragão"
+    SOMBRIO = "Sombrio"
+    ACO = "Aço"
+    FADA = "Fada"

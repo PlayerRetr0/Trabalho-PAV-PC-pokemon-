@@ -1,0 +1,424 @@
+{
+	"info": {
+		"_postman_id": "api-pav-pokemon-collection",
+		"name": "API Pav - Pokemon",
+		"description": "Coleção completa da API de gerenciamento de Pokemon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Jogador",
+			"item": [
+				{
+					"name": "Listar Jogadores",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/jogador",
+							"host": ["{{base_url}}"],
+							"path": ["jogador"]
+						},
+						"description": "Lista todos os jogadores cadastrados"
+					}
+				},
+				{
+					"name": "Buscar Jogador por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/jogador/:jogador_id",
+							"host": ["{{base_url}}"],
+							"path": ["jogador", ":jogador_id"],
+							"variable": [
+								{
+									"key": "jogador_id",
+									"value": "1",
+									"description": "ID do jogador"
+								}
+							]
+						},
+						"description": "Busca um jogador específico pelo ID"
+					}
+				},
+				{
+					"name": "Criar Jogador",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Ash Ketchum\",\n    \"idade\": 10\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/jogador",
+							"host": ["{{base_url}}"],
+							"path": ["jogador"]
+						},
+						"description": "Cria um novo jogador"
+					}
+				},
+				{
+					"name": "Atualizar Jogador",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Ash Ketchum Atualizado\",\n    \"idade\": 11\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/jogador/:jogador_id",
+							"host": ["{{base_url}}"],
+							"path": ["jogador", ":jogador_id"],
+							"variable": [
+								{
+									"key": "jogador_id",
+									"value": "1",
+									"description": "ID do jogador"
+								}
+							]
+						},
+						"description": "Atualiza um jogador existente"
+					}
+				},
+				{
+					"name": "Deletar Jogador",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/jogador/:jogador_id",
+							"host": ["{{base_url}}"],
+							"path": ["jogador", ":jogador_id"],
+							"variable": [
+								{
+									"key": "jogador_id",
+									"value": "1",
+									"description": "ID do jogador"
+								}
+							]
+						},
+						"description": "Deleta um jogador"
+					}
+				}
+			]
+		},
+		{
+			"name": "Pokemon",
+			"item": [
+				{
+					"name": "Listar Pokemons",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/pokemon",
+							"host": ["{{base_url}}"],
+							"path": ["pokemon"]
+						},
+						"description": "Lista todos os pokemons cadastrados"
+					}
+				},
+				{
+					"name": "Buscar Pokemon por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/pokemon/:pokemon_id",
+							"host": ["{{base_url}}"],
+							"path": ["pokemon", ":pokemon_id"],
+							"variable": [
+								{
+									"key": "pokemon_id",
+									"value": "1",
+									"description": "ID do pokemon"
+								}
+							]
+						},
+						"description": "Busca um pokemon específico pelo ID"
+					}
+				},
+				{
+					"name": "Criar Pokemon",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"raca\": \"PIKACHU\",\n    \"tipo\": \"ELETRICO\",\n    \"nome\": \"Pikachu\",\n    \"genero\": true\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/pokemon",
+							"host": ["{{base_url}}"],
+							"path": ["pokemon"]
+						},
+						"description": "Cria um novo pokemon. Raça e Tipo devem ser valores válidos dos enums (em maiúsculas)"
+					}
+				},
+				{
+					"name": "Atualizar Pokemon",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Pikachu Atualizado\",\n    \"genero\": false\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/pokemon/:pokemon_id",
+							"host": ["{{base_url}}"],
+							"path": ["pokemon", ":pokemon_id"],
+							"variable": [
+								{
+									"key": "pokemon_id",
+									"value": "1",
+									"description": "ID do pokemon"
+								}
+							]
+						},
+						"description": "Atualiza um pokemon existente. Todos os campos são opcionais."
+					}
+				},
+				{
+					"name": "Deletar Pokemon",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/pokemon/:pokemon_id",
+							"host": ["{{base_url}}"],
+							"path": ["pokemon", ":pokemon_id"],
+							"variable": [
+								{
+									"key": "pokemon_id",
+									"value": "1",
+									"description": "ID do pokemon"
+								}
+							]
+						},
+						"description": "Deleta um pokemon"
+					}
+				}
+			]
+		},
+		{
+			"name": "Caixa",
+			"item": [
+				{
+					"name": "Listar Caixas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/caixa",
+							"host": ["{{base_url}}"],
+							"path": ["caixa"]
+						},
+						"description": "Lista todas as caixas cadastradas"
+					}
+				},
+				{
+					"name": "Buscar Caixa por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/caixa/:caixa_id",
+							"host": ["{{base_url}}"],
+							"path": ["caixa", ":caixa_id"],
+							"variable": [
+								{
+									"key": "caixa_id",
+									"value": "1",
+									"description": "ID da caixa"
+								}
+							]
+						},
+						"description": "Busca uma caixa específica pelo ID"
+					}
+				},
+				{
+					"name": "Criar Caixa",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Caixa Principal\",\n    \"jogador_id\": 1\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/caixa",
+							"host": ["{{base_url}}"],
+							"path": ["caixa"]
+						},
+						"description": "Cria uma nova caixa para um jogador"
+					}
+				},
+				{
+					"name": "Atualizar Caixa",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Caixa Atualizada\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/caixa/:caixa_id",
+							"host": ["{{base_url}}"],
+							"path": ["caixa", ":caixa_id"],
+							"variable": [
+								{
+									"key": "caixa_id",
+									"value": "1",
+									"description": "ID da caixa"
+								}
+							]
+						},
+						"description": "Atualiza uma caixa existente"
+					}
+				},
+				{
+					"name": "Deletar Caixa",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/caixa/:caixa_id",
+							"host": ["{{base_url}}"],
+							"path": ["caixa", ":caixa_id"],
+							"variable": [
+								{
+									"key": "caixa_id",
+									"value": "1",
+									"description": "ID da caixa"
+								}
+							]
+						},
+						"description": "Deleta uma caixa"
+					}
+				}
+			]
+		},
+		{
+			"name": "Equipe",
+			"item": [
+				{
+					"name": "Listar Equipes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/equipe",
+							"host": ["{{base_url}}"],
+							"path": ["equipe"]
+						},
+						"description": "Lista todas as equipes cadastradas"
+					}
+				},
+				{
+					"name": "Buscar Equipe por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/equipe/:equipe_id",
+							"host": ["{{base_url}}"],
+							"path": ["equipe", ":equipe_id"],
+							"variable": [
+								{
+									"key": "equipe_id",
+									"value": "1",
+									"description": "ID da equipe"
+								}
+							]
+						},
+						"description": "Busca uma equipe específica pelo ID (retorna com lista de pokemons)"
+					}
+				},
+				{
+					"name": "Criar Equipe",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"jogador_id\": 1\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/equipe",
+							"host": ["{{base_url}}"],
+							"path": ["equipe"]
+						},
+						"description": "Cria uma nova equipe para um jogador (cada jogador pode ter apenas uma equipe)"
+					}
+				},
+				{
+					"name": "Deletar Equipe",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/equipe/:equipe_id",
+							"host": ["{{base_url}}"],
+							"path": ["equipe", ":equipe_id"],
+							"variable": [
+								{
+									"key": "equipe_id",
+									"value": "1",
+									"description": "ID da equipe"
+								}
+							]
+						},
+						"description": "Deleta uma equipe"
+					}
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:5001",
+			"type": "string"
+		}
+	]
+}

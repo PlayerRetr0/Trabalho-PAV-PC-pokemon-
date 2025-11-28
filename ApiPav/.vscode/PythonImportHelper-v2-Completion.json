@@ -1,0 +1,823 @@
+[
+    {
+        "label": "Resource",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "reqparse",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "marshal_with",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "marshal",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "reqparse",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "marshal_with",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "marshal",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "reqparse",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "marshal_with",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "marshal",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "reqparse",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "marshal",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "CaixaService",
+        "importPath": "src.services.caixa_service",
+        "description": "src.services.caixa_service",
+        "isExtraImport": true,
+        "detail": "src.services.caixa_service",
+        "documentation": {}
+    },
+    {
+        "label": "caixa_fields",
+        "importPath": "src.views.caixa_view",
+        "description": "src.views.caixa_view",
+        "isExtraImport": true,
+        "detail": "src.views.caixa_view",
+        "documentation": {}
+    },
+    {
+        "label": "caixa_list_fields",
+        "importPath": "src.views.caixa_view",
+        "description": "src.views.caixa_view",
+        "isExtraImport": true,
+        "detail": "src.views.caixa_view",
+        "documentation": {}
+    },
+    {
+        "label": "EquipeService",
+        "importPath": "src.services.equipe_service",
+        "description": "src.services.equipe_service",
+        "isExtraImport": true,
+        "detail": "src.services.equipe_service",
+        "documentation": {}
+    },
+    {
+        "label": "equipe_fields",
+        "importPath": "src.views.equipe_view",
+        "description": "src.views.equipe_view",
+        "isExtraImport": true,
+        "detail": "src.views.equipe_view",
+        "documentation": {}
+    },
+    {
+        "label": "equipe_list_fields",
+        "importPath": "src.views.equipe_view",
+        "description": "src.views.equipe_view",
+        "isExtraImport": true,
+        "detail": "src.views.equipe_view",
+        "documentation": {}
+    },
+    {
+        "label": "equipe_detalhada_fields",
+        "importPath": "src.views.equipe_view",
+        "description": "src.views.equipe_view",
+        "isExtraImport": true,
+        "detail": "src.views.equipe_view",
+        "documentation": {}
+    },
+    {
+        "label": "JogadorService",
+        "importPath": "src.services.jogador_service",
+        "description": "src.services.jogador_service",
+        "isExtraImport": true,
+        "detail": "src.services.jogador_service",
+        "documentation": {}
+    },
+    {
+        "label": "jogador_fields",
+        "importPath": "src.views.jogador_view",
+        "description": "src.views.jogador_view",
+        "isExtraImport": true,
+        "detail": "src.views.jogador_view",
+        "documentation": {}
+    },
+    {
+        "label": "jogador_list_fields",
+        "importPath": "src.views.jogador_view",
+        "description": "src.views.jogador_view",
+        "isExtraImport": true,
+        "detail": "src.views.jogador_view",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonService",
+        "importPath": "src.services.pokemon_service",
+        "description": "src.services.pokemon_service",
+        "isExtraImport": true,
+        "detail": "src.services.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "pokemon_fields",
+        "importPath": "src.views.pokemon_view",
+        "description": "src.views.pokemon_view",
+        "isExtraImport": true,
+        "detail": "src.views.pokemon_view",
+        "documentation": {}
+    },
+    {
+        "label": "pokemon_list_fields",
+        "importPath": "src.views.pokemon_view",
+        "description": "src.views.pokemon_view",
+        "isExtraImport": true,
+        "detail": "src.views.pokemon_view",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.models.base",
+        "description": "src.models.base",
+        "isExtraImport": true,
+        "detail": "src.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.models.base",
+        "description": "src.models.base",
+        "isExtraImport": true,
+        "detail": "src.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.models.base",
+        "description": "src.models.base",
+        "isExtraImport": true,
+        "detail": "src.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.models.base",
+        "description": "src.models.base",
+        "isExtraImport": true,
+        "detail": "src.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.models.base",
+        "description": "src.models.base",
+        "isExtraImport": true,
+        "detail": "src.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.models.base",
+        "description": "src.models.base",
+        "isExtraImport": true,
+        "detail": "src.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.models.base",
+        "description": "src.models.base",
+        "isExtraImport": true,
+        "detail": "src.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.models.base",
+        "description": "src.models.base",
+        "isExtraImport": true,
+        "detail": "src.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.models.base",
+        "description": "src.models.base",
+        "isExtraImport": true,
+        "detail": "src.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "TipoEnum",
+        "importPath": "src.models.tipoEnum",
+        "description": "src.models.tipoEnum",
+        "isExtraImport": true,
+        "detail": "src.models.tipoEnum",
+        "documentation": {}
+    },
+    {
+        "label": "TipoEnum",
+        "importPath": "src.models.tipoEnum",
+        "description": "src.models.tipoEnum",
+        "isExtraImport": true,
+        "detail": "src.models.tipoEnum",
+        "documentation": {}
+    },
+    {
+        "label": "RacaEnum",
+        "importPath": "src.models.racaEnum",
+        "description": "src.models.racaEnum",
+        "isExtraImport": true,
+        "detail": "src.models.racaEnum",
+        "documentation": {}
+    },
+    {
+        "label": "RacaEnum",
+        "importPath": "src.models.racaEnum",
+        "description": "src.models.racaEnum",
+        "isExtraImport": true,
+        "detail": "src.models.racaEnum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "JogadorController",
+        "importPath": "src.controllers.jogador_controller",
+        "description": "src.controllers.jogador_controller",
+        "isExtraImport": true,
+        "detail": "src.controllers.jogador_controller",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonController",
+        "importPath": "src.controllers.pokemon_controller",
+        "description": "src.controllers.pokemon_controller",
+        "isExtraImport": true,
+        "detail": "src.controllers.pokemon_controller",
+        "documentation": {}
+    },
+    {
+        "label": "CaixaController",
+        "importPath": "src.controllers.caixa_controller",
+        "description": "src.controllers.caixa_controller",
+        "isExtraImport": true,
+        "detail": "src.controllers.caixa_controller",
+        "documentation": {}
+    },
+    {
+        "label": "EquipeController",
+        "importPath": "src.controllers.equipe_controller",
+        "description": "src.controllers.equipe_controller",
+        "isExtraImport": true,
+        "detail": "src.controllers.equipe_controller",
+        "documentation": {}
+    },
+    {
+        "label": "Caixa",
+        "importPath": "src.models.caixa",
+        "description": "src.models.caixa",
+        "isExtraImport": true,
+        "detail": "src.models.caixa",
+        "documentation": {}
+    },
+    {
+        "label": "Caixa",
+        "importPath": "src.models.caixa",
+        "description": "src.models.caixa",
+        "isExtraImport": true,
+        "detail": "src.models.caixa",
+        "documentation": {}
+    },
+    {
+        "label": "Jogador",
+        "importPath": "src.models.jogador",
+        "description": "src.models.jogador",
+        "isExtraImport": true,
+        "detail": "src.models.jogador",
+        "documentation": {}
+    },
+    {
+        "label": "Jogador",
+        "importPath": "src.models.jogador",
+        "description": "src.models.jogador",
+        "isExtraImport": true,
+        "detail": "src.models.jogador",
+        "documentation": {}
+    },
+    {
+        "label": "Jogador",
+        "importPath": "src.models.jogador",
+        "description": "src.models.jogador",
+        "isExtraImport": true,
+        "detail": "src.models.jogador",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Equipe",
+        "importPath": "src.models.equipe",
+        "description": "src.models.equipe",
+        "isExtraImport": true,
+        "detail": "src.models.equipe",
+        "documentation": {}
+    },
+    {
+        "label": "Equipe",
+        "importPath": "src.models.equipe",
+        "description": "src.models.equipe",
+        "isExtraImport": true,
+        "detail": "src.models.equipe",
+        "documentation": {}
+    },
+    {
+        "label": "Pokemon",
+        "importPath": "src.models.pokemon",
+        "description": "src.models.pokemon",
+        "isExtraImport": true,
+        "detail": "src.models.pokemon",
+        "documentation": {}
+    },
+    {
+        "label": "Pokemon",
+        "importPath": "src.models.pokemon",
+        "description": "src.models.pokemon",
+        "isExtraImport": true,
+        "detail": "src.models.pokemon",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "src",
+        "description": "src",
+        "isExtraImport": true,
+        "detail": "src",
+        "documentation": {}
+    },
+    {
+        "label": "CaixaController",
+        "kind": 6,
+        "importPath": "src.controllers.caixa_controller",
+        "description": "src.controllers.caixa_controller",
+        "peekOfCode": "class CaixaController(Resource):\n    def __init__(self):\n        self.service = CaixaService()\n    @marshal_with(caixa_fields)\n    def get(self, caixa_id=None):\n        if caixa_id:\n            c = self.service.buscar_caixa_por_id(caixa_id)\n            if not c:\n                return {'erro': 'Não existe'}, 404\n            return c",
+        "detail": "src.controllers.caixa_controller",
+        "documentation": {}
+    },
+    {
+        "label": "EquipeController",
+        "kind": 6,
+        "importPath": "src.controllers.equipe_controller",
+        "description": "src.controllers.equipe_controller",
+        "peekOfCode": "class EquipeController(Resource):\n    def __init__(self):\n        self.service = EquipeService()\n    def get(self, equipe_id=None):\n        if equipe_id:\n            e = self.service.buscar_equipe_por_id(equipe_id)\n            if not e:\n                return {'erro': 'Não existe'}, 404\n            return marshal(e, equipe_detalhada_fields), 200\n        equipes = self.service.listar_equipes()",
+        "detail": "src.controllers.equipe_controller",
+        "documentation": {}
+    },
+    {
+        "label": "JogadorController",
+        "kind": 6,
+        "importPath": "src.controllers.jogador_controller",
+        "description": "src.controllers.jogador_controller",
+        "peekOfCode": "class JogadorController(Resource):\n    def __init__(self):\n        self.service = JogadorService()\n    @marshal_with(jogador_fields)\n    def get(self, jogador_id=None):\n        if jogador_id:\n            jogador = self.service.buscar_jogador_por_id(jogador_id)\n            if not jogador:\n                return {'erro': 'ID inválido'}, 404\n            return jogador",
+        "detail": "src.controllers.jogador_controller",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonController",
+        "kind": 6,
+        "importPath": "src.controllers.pokemon_controller",
+        "description": "src.controllers.pokemon_controller",
+        "peekOfCode": "class PokemonController(Resource):\n    def __init__(self):\n        self.service = PokemonService()\n    def get(self, pokemon_id=None):\n        if pokemon_id:\n            p = self.service.buscar_pokemon_por_id(pokemon_id)\n            if not p:\n                return {'erro': 'Não existe'}, 404\n            return marshal(p, pokemon_fields), 200\n        pokemons = self.service.listar_pokemons()",
+        "detail": "src.controllers.pokemon_controller",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "src.models.base",
+        "description": "src.models.base",
+        "peekOfCode": "db = SQLAlchemy()",
+        "detail": "src.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "Caixa",
+        "kind": 6,
+        "importPath": "src.models.caixa",
+        "description": "src.models.caixa",
+        "peekOfCode": "class Caixa(db.Model):\n    __tablename__ = 'caixa'\n    id = db.Column(db.Integer, primary_key=True, autoincrement=True)\n    nome = db.Column(db.String(20), nullable=False)\n    jogador_id = db.Column(db.Integer, db.ForeignKey(\"jogador.id\"), nullable=False)\n    pokemons = db.relationship(\n        \"Pokemon\", \n        backref=db.backref(\"caixa\", uselist=False),\n        primaryjoin=\"Caixa.id == Pokemon.caixa_id\",\n        cascade=\"all, delete-orphan\")",
+        "detail": "src.models.caixa",
+        "documentation": {}
+    },
+    {
+        "label": "Equipe",
+        "kind": 6,
+        "importPath": "src.models.equipe",
+        "description": "src.models.equipe",
+        "peekOfCode": "class Equipe(db.Model):\n    __tablename__ = 'equipe'\n    id = db.Column(db.Integer, primary_key=True, autoincrement=True)\n    jogador_id = db.Column(db.Integer, db.ForeignKey(\"jogador.id\"), nullable=False)\n    pokemons = db.relationship(\n        \"Pokemon\",\n        backref=db.backref(\"equipe\", uselist=False),\n        primaryjoin=\"Equipe.id == Pokemon.equipe_id\",\n        cascade=\"all, delete-orphan\"\n    )",
+        "detail": "src.models.equipe",
+        "documentation": {}
+    },
+    {
+        "label": "EquipePokemon",
+        "kind": 6,
+        "importPath": "src.models.equipePokemon",
+        "description": "src.models.equipePokemon",
+        "peekOfCode": "class EquipePokemon(db.Model):\n    __tablename__ = 'equipe_pokemon'\n    id = db.Column(db.Integer, primary_key=True, autoincrement=True)\n    equipe_id = db.Column(db.Integer, db.ForeignKey(\"equipe.id\"), nullable=False)\n    pokemon_id = db.Column(db.Integer, db.ForeignKey(\"pokemon.id\"), nullable=False)\n    posicao = db.Column(db.Integer, nullable=False)",
+        "detail": "src.models.equipePokemon",
+        "documentation": {}
+    },
+    {
+        "label": "Jogador",
+        "kind": 6,
+        "importPath": "src.models.jogador",
+        "description": "src.models.jogador",
+        "peekOfCode": "class Jogador(db.Model):\n    __tablename__ = 'jogador'\n    id = db.Column(db.Integer, primary_key=True, autoincrement=True)\n    nome = db.Column(db.String(30), nullable=False)\n    idade = db.Column(db.Integer, nullable=False)\n    caixas = db.relationship(\"Caixa\", backref=\"jogador\", cascade=\"all, delete-orphan\")\n    equipe = db.relationship(\"Equipe\", backref=\"jogador\", uselist=False, cascade=\"all, delete-orphan\")",
+        "detail": "src.models.jogador",
+        "documentation": {}
+    },
+    {
+        "label": "Pokemon",
+        "kind": 6,
+        "importPath": "src.models.pokemon",
+        "description": "src.models.pokemon",
+        "peekOfCode": "class Pokemon(db.Model):\n    __tablename__ = 'pokemon'\n    id = db.Column(db.Integer, primary_key=True, autoincrement=True)\n    raca = db.Column(db.Enum(RacaEnum), nullable=False)\n    tipo = db.Column(db.Enum(TipoEnum), nullable=False)\n    nome = db.Column(db.String(15))\n    genero = db.Column(db.Boolean(), nullable=False)\n    level = db.Column(db.Integer, nullable=False, default=1)\n    caixa_id = db.Column(db.Integer, db.ForeignKey(\"caixa.id\"), nullable=True)\n    equipe_id = db.Column(db.Integer, db.ForeignKey(\"equipe.id\"), nullable=True)",
+        "detail": "src.models.pokemon",
+        "documentation": {}
+    },
+    {
+        "label": "RacaEnum",
+        "kind": 6,
+        "importPath": "src.models.racaEnum",
+        "description": "src.models.racaEnum",
+        "peekOfCode": "class RacaEnum(Enum):\n    BULBASAUR = \"Bulbasaur\"\n    IVYSAUR = \"Ivysaur\"\n    VENUSAUR = \"Venusaur\"\n    CHARMANDER = \"Charmander\"\n    CHARMELEON = \"Charmeleon\"\n    CHARIZARD = \"Charizard\"\n    SQUIRTLE = \"Squirtle\"\n    WARTORTLE = \"Wartortle\"\n    BLASTOISE = \"Blastoise\"",
+        "detail": "src.models.racaEnum",
+        "documentation": {}
+    },
+    {
+        "label": "TipoEnum",
+        "kind": 6,
+        "importPath": "src.models.tipoEnum",
+        "description": "src.models.tipoEnum",
+        "peekOfCode": "class TipoEnum(Enum):\n    NORMAL = \"Normal\"\n    FOGO = \"Fogo\"\n    AGUA = \"Água\"\n    ELETRICO = \"Elétrico\"\n    GRAMA = \"Grama\"\n    GELO = \"Gelo\"\n    LUTADOR = \"Lutador\"\n    VENENOSO = \"Venenoso\"\n    TERRESTRE = \"Terrestre\"",
+        "detail": "src.models.tipoEnum",
+        "documentation": {}
+    },
+    {
+        "label": "endpoints",
+        "kind": 2,
+        "importPath": "src.routes.endpoints",
+        "description": "src.routes.endpoints",
+        "peekOfCode": "def endpoints(api):\n    api.add_resource(JogadorController, '/jogador', '/jogador/<int:jogador_id>')\n    api.add_resource(PokemonController, '/pokemon', '/pokemon/<int:pokemon_id>')\n    api.add_resource(CaixaController, '/caixa', '/caixa/<int:caixa_id>')\n    api.add_resource(EquipeController, '/equipe', '/equipe/<int:equipe_id>')",
+        "detail": "src.routes.endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "CaixaService",
+        "kind": 6,
+        "importPath": "src.services.caixa_service",
+        "description": "src.services.caixa_service",
+        "peekOfCode": "class CaixaService:\n    def criar_caixa(self, nome: str, jogador_id: int) -> Caixa:\n        if not nome or not nome.strip():\n            raise ValueError(\"Nome vazio\")\n        if len(nome) > 20:\n            raise ValueError(\"Nome muito longo\")\n        if not Jogador.query.get(jogador_id):\n            raise ValueError(\"Jogador não existe\")\n        c = Caixa(nome=nome, jogador_id=jogador_id)\n        db.session.add(c)",
+        "detail": "src.services.caixa_service",
+        "documentation": {}
+    },
+    {
+        "label": "EquipeService",
+        "kind": 6,
+        "importPath": "src.services.equipe_service",
+        "description": "src.services.equipe_service",
+        "peekOfCode": "class EquipeService:\n    def criar_equipe(self, jogador_id: int) -> Equipe:\n        j = Jogador.query.get(jogador_id)\n        if not j:\n            raise ValueError(\"Jogador não existe\")\n        if j.equipe:\n            raise ValueError(\"Já tem equipe\")\n        e = Equipe(jogador_id=jogador_id)\n        db.session.add(e)\n        db.session.commit()",
+        "detail": "src.services.equipe_service",
+        "documentation": {}
+    },
+    {
+        "label": "JogadorService",
+        "kind": 6,
+        "importPath": "src.services.jogador_service",
+        "description": "src.services.jogador_service",
+        "peekOfCode": "class JogadorService:\n    def criar_jogador(self, nome: str, idade: int) -> Jogador:\n        if idade <= 0:\n            raise ValueError(\"Idade inválida\")\n        if not nome or not nome.strip():\n            raise ValueError(\"Nome vazio\")\n        j = Jogador(nome=nome, idade=idade)\n        db.session.add(j)\n        db.session.commit()\n        return j",
+        "detail": "src.services.jogador_service",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonService",
+        "kind": 6,
+        "importPath": "src.services.pokemon_service",
+        "description": "src.services.pokemon_service",
+        "peekOfCode": "class PokemonService:\n    def criar_pokemon(self, raca: str, tipo: str, nome: str, genero: bool, level: int = 1) -> Pokemon:\n        try:\n            raca_enum = RacaEnum[raca.upper()]\n            tipo_enum = TipoEnum[tipo.upper()]\n        except KeyError as e:\n            raise ValueError(f\"Enum inválido: {e}\")\n        if nome and len(nome) > 15:\n            raise ValueError(\"Nome muito longo\")\n        if not (1 <= level <= 100):",
+        "detail": "src.services.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "caixa_fields",
+        "kind": 5,
+        "importPath": "src.views.caixa_view",
+        "description": "src.views.caixa_view",
+        "peekOfCode": "caixa_fields = {\n    'id': fields.Integer,\n    'nome': fields.String,\n    'jogador_id': fields.Integer\n}\ncaixa_list_fields = {\n    'id': fields.Integer,\n    'nome': fields.String,\n    'jogador_id': fields.Integer,\n    'jogador_nome': fields.String(attribute='jogador.nome'),",
+        "detail": "src.views.caixa_view",
+        "documentation": {}
+    },
+    {
+        "label": "caixa_list_fields",
+        "kind": 5,
+        "importPath": "src.views.caixa_view",
+        "description": "src.views.caixa_view",
+        "peekOfCode": "caixa_list_fields = {\n    'id': fields.Integer,\n    'nome': fields.String,\n    'jogador_id': fields.Integer,\n    'jogador_nome': fields.String(attribute='jogador.nome'),\n    'total_pokemons': fields.Integer\n}",
+        "detail": "src.views.caixa_view",
+        "documentation": {}
+    },
+    {
+        "label": "equipe_fields",
+        "kind": 5,
+        "importPath": "src.views.equipe_view",
+        "description": "src.views.equipe_view",
+        "peekOfCode": "equipe_fields = {\n    'id': fields.Integer,\n    'jogador_id': fields.Integer\n}\nequipe_list_fields = {\n    'id': fields.Integer,\n    'jogador_id': fields.Integer,\n    'jogador_nome': fields.String(attribute='jogador.nome'),\n    'total_pokemons': fields.Integer\n}",
+        "detail": "src.views.equipe_view",
+        "documentation": {}
+    },
+    {
+        "label": "equipe_list_fields",
+        "kind": 5,
+        "importPath": "src.views.equipe_view",
+        "description": "src.views.equipe_view",
+        "peekOfCode": "equipe_list_fields = {\n    'id': fields.Integer,\n    'jogador_id': fields.Integer,\n    'jogador_nome': fields.String(attribute='jogador.nome'),\n    'total_pokemons': fields.Integer\n}\npokemon_equipe_fields = {\n    'id': fields.Integer,\n    'raca': fields.String(attribute='raca.value'),\n    'tipo': fields.String(attribute='tipo.value'),",
+        "detail": "src.views.equipe_view",
+        "documentation": {}
+    },
+    {
+        "label": "pokemon_equipe_fields",
+        "kind": 5,
+        "importPath": "src.views.equipe_view",
+        "description": "src.views.equipe_view",
+        "peekOfCode": "pokemon_equipe_fields = {\n    'id': fields.Integer,\n    'raca': fields.String(attribute='raca.value'),\n    'tipo': fields.String(attribute='tipo.value'),\n    'nome': fields.String,\n    'genero': fields.Boolean,\n    'level': fields.Integer\n}\nequipe_detalhada_fields = {\n    'id': fields.Integer,",
+        "detail": "src.views.equipe_view",
+        "documentation": {}
+    },
+    {
+        "label": "equipe_detalhada_fields",
+        "kind": 5,
+        "importPath": "src.views.equipe_view",
+        "description": "src.views.equipe_view",
+        "peekOfCode": "equipe_detalhada_fields = {\n    'id': fields.Integer,\n    'jogador_id': fields.Integer,\n    'jogador_nome': fields.String(attribute='jogador.nome'),\n    'pokemons': fields.List(fields.Nested(pokemon_equipe_fields))\n}",
+        "detail": "src.views.equipe_view",
+        "documentation": {}
+    },
+    {
+        "label": "caixa_resumo_fields",
+        "kind": 5,
+        "importPath": "src.views.jogador_view",
+        "description": "src.views.jogador_view",
+        "peekOfCode": "caixa_resumo_fields = {\n    'id': fields.Integer,\n    'nome': fields.String,\n}\njogador_fields = {\n    'id': fields.Integer,\n    'nome': fields.String,\n    'idade': fields.Integer,\n    'caixas': fields.List(fields.Nested(caixa_resumo_fields), attribute='caixas', default=[]),\n    'equipe_id': fields.Integer(attribute='equipe.id', default=None),",
+        "detail": "src.views.jogador_view",
+        "documentation": {}
+    },
+    {
+        "label": "jogador_fields",
+        "kind": 5,
+        "importPath": "src.views.jogador_view",
+        "description": "src.views.jogador_view",
+        "peekOfCode": "jogador_fields = {\n    'id': fields.Integer,\n    'nome': fields.String,\n    'idade': fields.Integer,\n    'caixas': fields.List(fields.Nested(caixa_resumo_fields), attribute='caixas', default=[]),\n    'equipe_id': fields.Integer(attribute='equipe.id', default=None),\n}\njogador_list_fields = {\n    'id': fields.Integer,\n    'nome': fields.String,",
+        "detail": "src.views.jogador_view",
+        "documentation": {}
+    },
+    {
+        "label": "jogador_list_fields",
+        "kind": 5,
+        "importPath": "src.views.jogador_view",
+        "description": "src.views.jogador_view",
+        "peekOfCode": "jogador_list_fields = {\n    'id': fields.Integer,\n    'nome': fields.String,\n    'idade': fields.Integer,\n    'equipe_id': fields.Integer(attribute='equipe.id', default=None),\n}",
+        "detail": "src.views.jogador_view",
+        "documentation": {}
+    },
+    {
+        "label": "pokemon_fields",
+        "kind": 5,
+        "importPath": "src.views.pokemon_view",
+        "description": "src.views.pokemon_view",
+        "peekOfCode": "pokemon_fields = {\n    'id': fields.Integer,\n    'raca': fields.String(attribute='raca.value'),\n    'tipo': fields.String(attribute='tipo.value'),\n    'nome': fields.String,\n    'genero': fields.Boolean,\n    'level': fields.Integer\n}\npokemon_list_fields = {\n    'id': fields.Integer,",
+        "detail": "src.views.pokemon_view",
+        "documentation": {}
+    },
+    {
+        "label": "pokemon_list_fields",
+        "kind": 5,
+        "importPath": "src.views.pokemon_view",
+        "description": "src.views.pokemon_view",
+        "peekOfCode": "pokemon_list_fields = {\n    'id': fields.Integer,\n    'raca': fields.String(attribute='raca.value'),\n    'tipo': fields.String(attribute='tipo.value'),\n    'nome': fields.String,\n    'genero': fields.Boolean,\n    'level': fields.Integer,\n    'caixa_id': fields.Integer(attribute='caixa.id', default=None),\n    'equipe_id': fields.Integer(attribute='equipe.id', default=None)\n}",
+        "detail": "src.views.pokemon_view",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "app = create_app()",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

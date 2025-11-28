@@ -1,0 +1,232 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "as_completed",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "customtkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "customtkinter",
+        "description": "customtkinter",
+        "detail": "customtkinter",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonScreen",
+        "importPath": "pokemon",
+        "description": "pokemon",
+        "isExtraImport": true,
+        "detail": "pokemon",
+        "documentation": {}
+    },
+    {
+        "label": "CaixaScreen",
+        "importPath": "caixa",
+        "description": "caixa",
+        "isExtraImport": true,
+        "detail": "caixa",
+        "documentation": {}
+    },
+    {
+        "label": "JogadorScreen",
+        "importPath": "jogador",
+        "description": "jogador",
+        "isExtraImport": true,
+        "detail": "jogador",
+        "documentation": {}
+    },
+    {
+        "label": "EquipeScreen",
+        "importPath": "equipe",
+        "description": "equipe",
+        "isExtraImport": true,
+        "detail": "equipe",
+        "documentation": {}
+    },
+    {
+        "label": "dados",
+        "importPath": "dados",
+        "description": "dados",
+        "isExtraImport": true,
+        "detail": "dados",
+        "documentation": {}
+    },
+    {
+        "label": "dados",
+        "importPath": "dados",
+        "description": "dados",
+        "isExtraImport": true,
+        "detail": "dados",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "importPath": "api_client",
+        "description": "api_client",
+        "isExtraImport": true,
+        "detail": "api_client",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "importPath": "api_client",
+        "description": "api_client",
+        "isExtraImport": true,
+        "detail": "api_client",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "importPath": "api_client",
+        "description": "api_client",
+        "isExtraImport": true,
+        "detail": "api_client",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "importPath": "api_client",
+        "description": "api_client",
+        "isExtraImport": true,
+        "detail": "api_client",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "importPath": "api_client",
+        "description": "api_client",
+        "isExtraImport": true,
+        "detail": "api_client",
+        "documentation": {}
+    },
+    {
+        "label": "APIClient",
+        "kind": 6,
+        "importPath": "api_client",
+        "description": "api_client",
+        "peekOfCode": "class APIClient:\n    def __init__(self, base_url=\"http://localhost:5001\"):\n        self.base_url = base_url\n    def _get(self, endpoint):\n        try:\n            response = requests.get(f\"{self.base_url}{endpoint}\")\n            response.raise_for_status()\n            return response.json()\n        except requests.exceptions.RequestException as e:\n            print(f\"Erro na requisição GET {endpoint}: {e}\")",
+        "detail": "api_client",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "kind": 5,
+        "importPath": "api_client",
+        "description": "api_client",
+        "peekOfCode": "api = APIClient()",
+        "detail": "api_client",
+        "documentation": {}
+    },
+    {
+        "label": "MainApp",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class MainApp:\n    def __init__(self):\n        self.root = ctk.CTk()\n        self.root.title(\"Seu PC Pokémon\")\n        self.root.geometry(\"900x700\")\n        self.root.resizable(False, False)\n        self._center()\n        main_frame = ctk.CTkFrame(self.root)\n        main_frame.pack(fill=\"both\", expand=True, padx=20, pady=20)\n        title = ctk.CTkLabel(main_frame, text=\"PC Pokémon\", font=ctk.CTkFont(size=48, weight=\"bold\"))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "CaixaScreen",
+        "kind": 6,
+        "importPath": "caixa",
+        "description": "caixa",
+        "peekOfCode": "class CaixaScreen:\n    def __init__(self, parent_window):\n        self.parent_window = parent_window\n        self.window = ctk.CTkToplevel(parent_window)\n        self.window.title(\"Caixa\")\n        self.window.geometry(\"900x700\")\n        self.window.resizable(False, False)\n        self.window.transient(parent_window)\n        self.window.grab_set()\n        self._center()",
+        "detail": "caixa",
+        "documentation": {}
+    },
+    {
+        "label": "DadosPokemon",
+        "kind": 6,
+        "importPath": "dados",
+        "description": "dados",
+        "peekOfCode": "class DadosPokemon:\n    def __init__(self):\n        self.jogador_id = None\n        self.equipe_id = None\n        self.caixa_ids = []\n        self._carregar_dados_iniciais()\n    def _carregar_dados_iniciais(self):\n        jogadores = api.listar_jogadores()\n        if jogadores and len(jogadores) > 0:\n            self.jogador_id = jogadores[0].get('id')",
+        "detail": "dados",
+        "documentation": {}
+    },
+    {
+        "label": "dados",
+        "kind": 5,
+        "importPath": "dados",
+        "description": "dados",
+        "peekOfCode": "dados = DadosPokemon()",
+        "detail": "dados",
+        "documentation": {}
+    },
+    {
+        "label": "EquipeScreen",
+        "kind": 6,
+        "importPath": "equipe",
+        "description": "equipe",
+        "peekOfCode": "class EquipeScreen:\n    def __init__(self, parent_window):\n        self.parent_window = parent_window\n        self.window = ctk.CTkToplevel(parent_window)\n        self.window.title(\"Equipe\")\n        self.window.geometry(\"900x700\")\n        self.window.resizable(False, False)\n        self.window.transient(parent_window)\n        self.window.grab_set()\n        self._center()",
+        "detail": "equipe",
+        "documentation": {}
+    },
+    {
+        "label": "JogadorScreen",
+        "kind": 6,
+        "importPath": "jogador",
+        "description": "jogador",
+        "peekOfCode": "class JogadorScreen:\n    def __init__(self, parent_window):\n        self.parent_window = parent_window\n        self.window = ctk.CTkToplevel(parent_window)\n        self.window.title(\"Jogador\")\n        self.window.geometry(\"900x700\")\n        self.window.resizable(False, False)\n        self.window.transient(parent_window)\n        self.window.grab_set()\n        self._center()",
+        "detail": "jogador",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonScreen",
+        "kind": 6,
+        "importPath": "pokemon",
+        "description": "pokemon",
+        "peekOfCode": "class PokemonScreen:\n    def __init__(self, parent_window):\n        self.parent_window = parent_window\n        self.window = ctk.CTkToplevel(parent_window)\n        self.window.title(\"Pokémon\")\n        self.window.geometry(\"900x700\")\n        self.window.resizable(False, False)\n        self.window.transient(parent_window)\n        self.window.grab_set()\n        self._center()",
+        "detail": "pokemon",
+        "documentation": {}
+    },
+    {
+        "label": "RACAS",
+        "kind": 5,
+        "importPath": "pokemon",
+        "description": "pokemon",
+        "peekOfCode": "RACAS = [\n    \"BULBASAUR\", \"IVYSAUR\", \"VENUSAUR\", \"CHARMANDER\", \"CHARMELEON\", \"CHARIZARD\",\n    \"SQUIRTLE\", \"WARTORTLE\", \"BLASTOISE\", \"PIKACHU\", \"RAICHU\", \"CATERPIE\",\n    \"METAPOD\", \"BUTTERFREE\", \"WEEDLE\", \"KAKUNA\", \"BEEDRILL\", \"PIDGEY\",\n    \"PIDGEOTTO\", \"PIDGEOT\", \"RATTATA\", \"RATICATE\", \"SPEAROW\", \"FEAROW\",\n    \"EKANS\", \"ARBOK\", \"SANDSHREW\", \"SANDSLASH\", \"NIDORAN_F\", \"NIDORINA\",\n    \"NIDOQUEEN\", \"NIDORAN_M\", \"NIDORINO\", \"NIDOKING\", \"CLEFAIRY\", \"CLEFABLE\",\n    \"VULPIX\", \"NINETALES\", \"JIGGLYPUFF\", \"WIGGLYTUFF\", \"ZUBAT\", \"GOLBAT\",\n    \"ODDISH\", \"GLOOM\", \"VILEPLUME\", \"PARAS\", \"PARASECT\", \"VENONAT\",\n    \"VENOMOTH\", \"DIGLETT\", \"DUGTRIO\", \"MEOWTH\", \"PERSIAN\", \"PSYDUCK\",",
+        "detail": "pokemon",
+        "documentation": {}
+    },
+    {
+        "label": "TIPOS",
+        "kind": 5,
+        "importPath": "pokemon",
+        "description": "pokemon",
+        "peekOfCode": "TIPOS = [\n    \"NORMAL\", \"FOGO\", \"AGUA\", \"ELETRICO\", \"GRAMA\", \"GELO\",\n    \"LUTADOR\", \"VENENOSO\", \"TERRESTRE\", \"VOADOR\", \"PSIQUICO\", \"INSETO\",\n    \"PEDRA\", \"FANTASMA\", \"DRAGAO\", \"SOMBRIO\", \"ACO\", \"FADA\"\n]\nclass PokemonScreen:\n    def __init__(self, parent_window):\n        self.parent_window = parent_window\n        self.window = ctk.CTkToplevel(parent_window)\n        self.window.title(\"Pokémon\")",
+        "detail": "pokemon",
+        "documentation": {}
+    }
+]
