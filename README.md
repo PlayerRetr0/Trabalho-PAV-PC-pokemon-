@@ -11,13 +11,13 @@ Um Jogador pode ter várias Caixas.
 Uma Caixa possui vários Pokémon.
 Uma Equipe contém vários Pokémon.
 
- JogadorService:
+ Jogador:
 
 	Não permite idade ≤ 0
 
 	Não permite nome vazio
 
-PokemonService:
+Pokemon:
 
 	Não permite level fora do range (1-100)
 
@@ -25,7 +25,7 @@ PokemonService:
 
 	Valida enums (raça e tipo)
 
-CaixaService:
+Caixa:
 
 	Não permite nome vazio
 
@@ -33,7 +33,7 @@ CaixaService:
 
 	Não permite criar caixa para jogador inexistente
 
-EquipeService:
+Equipe:
 
 	Não permite criar equipe para jogador inexistente
 
